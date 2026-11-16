@@ -1,0 +1,15 @@
+.git/
+.env
+.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+reports/audit_repro/
+reports/feasibility_repro/
+reports/repro_a/
+reports/repro_b/
+reports/*.csv
+reports/*.json
+*.log

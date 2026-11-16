@@ -1,0 +1,15 @@
+{
+  "default_seed": 20261022,
+  "simulation_start": "2026-10-22T00:00:00+00:00",
+  "profiles": {
+    "tiny": {"facilities": 1, "docks": 5, "appointments": 50, "events": 250, "days": 7},
+    "starter": {"facilities": 2, "docks": 20, "appointments": 1000, "events": 5000, "days": 14},
+    "full": {"facilities": 10, "docks": 100, "appointments": 20000, "events": 100000, "days": 60}
+  },
+  "baseline_labor_workers_per_dock": 1,
+  "weekday_demand_weight": 3,
+  "peak_hour_weight": 2,
+  "anomaly_rate": 0.00025,
+  "peak_hours": [8, 9, 10, 14, 15, 16],
+  "off_peak_hours": [7, 17]
+}
